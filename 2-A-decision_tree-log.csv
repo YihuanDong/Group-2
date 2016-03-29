@@ -1,0 +1,61 @@
+decision_tree,29 Mar 2016 00:24:35,"['git', 'status']",True,status,False,"On branch test
+Your branch is up-to-date with 'origin/test'.
+Untracked files:
+  (use ""git add <file>..."" to include in what will be committed)
+
+	2-A-decision_tree-log.csv
+
+nothing added to commit but untracked files present (use ""git add"" to track)
+",,
+decision_tree,29 Mar 2016 00:24:52,"['open', '.']",False,,False,,,
+decision_tree,29 Mar 2016 00:27:43,"['git', 'status']",True,status,False,"On branch test
+Your branch is up-to-date with 'origin/test'.
+Changes not staged for commit:
+  (use ""git add <file>..."" to update what will be committed)
+  (use ""git checkout -- <file>..."" to discard changes in working directory)
+
+	modified:   README.md
+
+Untracked files:
+  (use ""git add <file>..."" to include in what will be committed)
+
+	2-A-decision_tree-log.csv
+
+no changes added to commit (use ""git add"" and/or ""git commit -a"")
+",,
+decision_tree,29 Mar 2016 00:28:02,"['git', 'add', 'README.md']",True,add,False,,,
+decision_tree,29 Mar 2016 00:28:08,"['git', 'commit', '-m', '\xe2\x80\x9cReplaced', 'stars', 'in', 'README.md\xe2\x80\x9d']",True,commit,True,"error: pathspec 'stars' did not match any file(s) known to git.
+error: pathspec 'in' did not match any file(s) known to git.
+error: pathspec 'README.md”' did not match any file(s) known to git.
+",True,no
+decision_tree,29 Mar 2016 00:28:31,"['git', 'branch', '-a']",True,branch,False,"  master
+* test
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+  remotes/origin/test
+",,
+decision_tree,29 Mar 2016 00:28:40,"['git', 'status']",True,status,False,"On branch test
+Your branch is up-to-date with 'origin/test'.
+Changes to be committed:
+  (use ""git reset HEAD <file>..."" to unstage)
+
+	modified:   README.md
+
+Untracked files:
+  (use ""git add <file>..."" to include in what will be committed)
+
+	2-A-decision_tree-log.csv
+
+",,
+decision_tree,29 Mar 2016 00:28:49,"['git', 'add', 'README.md']",True,add,False,,,
+decision_tree,29 Mar 2016 00:28:57,"['git', 'commit', '-m', '\xe2\x80\x9cReplaced', 'stars', 'in', 'README.md\xe2\x80\x9d']",True,commit,True,"error: pathspec 'stars' did not match any file(s) known to git.
+error: pathspec 'in' did not match any file(s) known to git.
+error: pathspec 'README.md”' did not match any file(s) known to git.
+",True,no
+decision_tree,29 Mar 2016 00:29:19,"['git', 'commit', '-m', ""\xe2\x80\x9c'replace'""]",True,commit,False,"[test 4beab7f] “'replace'
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+",,
+decision_tree,29 Mar 2016 00:30:02,"['git', 'push', 'origin', 'test']",True,push,False,"To https://github.com/YihuanDong/Group-2.git
+   65c469e..4beab7f  test -> test
+",,
+decision_tree,29 Mar 2016 00:35:48,['quit'],False,,,,,yes
